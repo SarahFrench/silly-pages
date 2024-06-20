@@ -1,0 +1,85 @@
+.fart__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fart__clickbox {
+    width: 20vw;
+    height: 2em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .fart__clickbox {
+        width: 100vw;
+        height: 10vh;
+    }
+}
+
+svg.fart {
+    height: 70vh;
+    max-height: 500px;
+}
+
+@media screen and (max-width: 800px) {
+    svg.fart {
+        max-height: 400px;
+    }
+}
+
+table.fart {
+    width: -webkit-fill-available;
+}
+
+.fart__text {
+    font-family: 'Staatliches', monospace;
+    font-size: 1.5em;
+}
+
+.fart__text--inline {
+    display: inline;
+    margin-right: 1em;
+}
+
+h1.fart__text {
+    font-size: 3em;
+    text-align: center;
+}
+
+h3.fart__text {
+    font-size: 2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    h3.fart__text {
+        font-size: 3em;
+    }
+}
+
+li.fart__text {
+    margin-left: 0;
+}
+
+#score-submit {
+    margin-top: 1em;
+}
+
+.fart__highscores {
+    padding: 10px;
+    border: solid 2px red;
+}
+
+.fart__submit--border {
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 5px;
+}
