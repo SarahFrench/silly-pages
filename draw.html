@@ -1,0 +1,51 @@
+<head>
+    <link rel="stylesheet" href="./assets/css/draw/draw.css">
+
+    <script src="./assets/js/draw/draw.js"></script>
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+
+    <div class="flex-column-centered mr-1 ml-1 mt-2 mb-3">
+
+
+        <h1 class="draw__font">Please draw something in the canvas below!</h1>
+        <h3 class="draw__font">You can choose different colours and brush sizes, and undo your last brushstroke*</h3>
+        <p>You can also save your drawing to your computer*.
+        </p>
+        <small class="d-block">*=doesn't work on mobile...</small>
+
+        <canvas class="draw mt-3 mb-3" width="600" height="400"></canvas>
+        <div class="draw__under-canvas-area">
+            <div class="mb-1 mr-3">
+                <div id="pallette" class="mb-1">
+                    <div id="#000000" class="draw__colour-swatch" style="background-color:#000000;"></div>
+                    <div id="#FFFFFF" class="draw__colour-swatch" style="background-color:#FFFFFF;"></div>
+                    <div id="#FF0000" class="draw__colour-swatch" style="background-color:#FF0000;"></div>
+                    <div id="#FFFF00" class="draw__colour-swatch" style="background-color:#FFFF00;"></div>
+                    <div id="#0000FF" class="draw__colour-swatch" style="background-color:#0000FF;"></div>
+                </div>
+
+                <input id='brush-size' class="draw__sizer" type="range" list="tickmarks" min="1" max="20" step="1"
+                    value="10">
+                <datalist id="tickmarks">
+                    <option value="1"></option>
+                    <option value="5"></option>
+                    <option value="10"></option>
+                    <option value="15"></option>
+                    <option value="20"></option>
+                </datalist>
+                <label for="brush-size" class="d-block mb-1">Brush size = <span
+                        id="brush-size-display">10</span></label>
+
+                <button id="undo-button" class="draw__button d-block"">
+        Undo last brush stroke
+      </button>
+    </div>
+    <div class="">
+        <button class=" draw__button">
+                    <a id="download-button">Download your drawing</a>
+                </button>
+            </div>
+</body>
