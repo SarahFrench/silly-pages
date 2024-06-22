@@ -9,3 +9,7 @@ All pages require a bit of editing, to remove use of Rails etc. However some pag
 ### fart-game
 
 Previously users could compete to be in a top-5 leaderboard for the game. Without a backend in GitHub Pages that feature is no longer possible.
+
+### draw
+
+Previously I allowed users to save their drawing to a gallery, but this isn't possible without a backend in GitHub Pages.
