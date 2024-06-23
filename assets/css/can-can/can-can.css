@@ -152,15 +152,17 @@
     display: none;
 }
 
-.cymbal {
+.can-can__cymbal--visible {
     display: inline-block;
+}
+
+.cymbal {
     height: 200px;
     width: 40px;
 }
 
 @media screen and (max-width: 800px) {
     .cymbal {
-        display: inline-block;
         height: 100px;
         width: 20px;
     }
@@ -169,10 +171,8 @@
 .cymbal svg {
     height: 200px;
     width: 40px;
-    display: inline-block;
     height: 100%;
     width: 100%;
-
 }
 
 .cymbal__left {

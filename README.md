@@ -6,6 +6,10 @@ This repo contains a copy of static pages from [my 2019 Advent Calendar project]
 
 All pages require a bit of editing, to remove use of Rails etc. However some pages needed more editing because they previously saved data to a backend database. Below are some details about those changes.
 
+### can-can
+
+Fixed CSS error that means cymbals weren't hidden and then shown at the correct time.
+
 ### fart-game
 
 Previously users could compete to be in a top-5 leaderboard for the game. Without a backend in GitHub Pages that feature is no longer possible.
