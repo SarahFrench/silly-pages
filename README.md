@@ -13,3 +13,7 @@ Previously users could compete to be in a top-5 leaderboard for the game. Withou
 ### draw
 
 Previously I allowed users to save their drawing to a gallery, but this isn't possible without a backend in GitHub Pages.
+
+### troll
+
+I fixed up the CSS because it was a hot mess. Now it's just a mess.

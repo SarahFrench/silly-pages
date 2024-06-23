@@ -1,0 +1,28 @@
+.flex-column-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mt-5 {
+    margin-top: 10;
+}
+
+.troll-bar__apology {
+    color: red;
+}
+
+.troll-bar__heart {
+    width: 50px;
+    animation: spin-cw 2s infinite;
+}
+
+.troll-bar_container {
+    width: 90%;
+}
+
+@media only screen and (min-width: 700px) {
+    .troll-bar_container {
+        width: 50%;
+    }
+}
